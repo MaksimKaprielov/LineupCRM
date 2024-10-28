@@ -1,0 +1,26 @@
+@media (max-width: 1130px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    aside {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .aside-inner {
+        padding-bottom: 20px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icon {
+        transform: rotate(90deg)
+    }
+}

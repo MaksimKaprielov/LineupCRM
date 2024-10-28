@@ -1,0 +1,54 @@
+:root {
+    --color-primary: #7380ec;
+    --color-danger: #E57373;
+    --color-success: #81C784;
+    --color-warning: #FFB74D;
+    --color-white: #eee;
+    --color-info-dark: #999999;
+    --color-info-light: #999999;
+    --color-dark: #EEEEEE;
+    --color-panel: #fff;
+    --color-light: #464646;
+    --color-background: #F2F2F2;
+    --color-background-dark: #424242;
+    --color-shadow: rgba(0, 0, 0, .25);
+    --color-font: #282945;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: .4rem;
+    --border-radius-2: .8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+    --box-shadow: 0 0 30px -5px var(--color-shadow);
+    --box-shadow-link: inset -5px 0px 20px -4px rgba(148, 148, 148, 0.50);
+
+
+    --color-table-row: #fff;
+    
+    --color-font-table: #d6d6d6;
+    --color-notify: #d4d4d4;
+}
+
+.dark-theme {
+    --color-font: #EEEEEE;
+    --color-font-table: #d6d6d6;
+    --color-background: #424242;
+    --color-white: #F2F2F2;
+    --color-info-dark: #c4c4c4;
+    --color-dark: #333333;
+    --color-dark-variant: #EEEEEE;
+    --color-panel: #333333;
+    --box-shadow: 0 2rem 3rem var(--color-light);
+    --color-table-row: #333;
+    --color-primary: #7380ec;
+    --color-danger: #E57373;
+    --color-success: #81C784;
+    --color-warning: #FFB74D;
+
+    --color-notify: #e5e7eb;
+
+    transition: all .5s ease;
+}

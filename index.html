@@ -1,0 +1,1089 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="/assets/images/logo/logo.ico" type="image/x-icon">
+    <title>lineup</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <aside>
+            <div class="aside-inner">
+                <div class="aside-logo">
+                    <img src="assets/images/logo/logo.png" alt="">
+                    <p>lineup</p>
+                </div>
+                <div class="aside-nav">
+                    <div class="nav">
+                        <div class="nav-link">
+                            <a id="journal-link" href="">
+                                <span><svg width="24" height="24" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 18.4667C6.26667 18.4667 6.5 18.3667 6.7 18.1667C6.9 17.9667 7 17.7333 7 17.4667C7 17.2 6.9 16.9667 6.7 16.7667C6.5 16.5667 6.26667 16.4667 6 16.4667C5.73333 16.4667 5.5 16.5667 5.3 16.7667C5.1 16.9667 5 17.2 5 17.4667C5 17.7333 5.1 17.9667 5.3 18.1667C5.5 18.3667 5.73333 18.4667 6 18.4667ZM6 13C6.26667 13 6.5 12.9 6.7 12.7C6.9 12.5 7 12.2667 7 12C7 11.7333 6.9 11.5 6.7 11.3C6.5 11.1 6.26667 11 6 11C5.73333 11 5.5 11.1 5.3 11.3C5.1 11.5 5 11.7333 5 12C5 12.2667 5.1 12.5 5.3 12.7C5.5 12.9 5.73333 13 6 13ZM6 7.53333C6.26667 7.53333 6.5 7.43333 6.7 7.23333C6.9 7.03333 7 6.8 7 6.53333C7 6.26667 6.9 6.03333 6.7 5.83333C6.5 5.63333 6.26667 5.53333 6 5.53333C5.73333 5.53333 5.5 5.63333 5.3 5.83333C5.1 6.03333 5 6.26667 5 6.53333C5 6.8 5.1 7.03333 5.3 7.23333C5.5 7.43333 5.73333 7.53333 6 7.53333ZM10.4 18.4667H18.5333V16.4667H10.4V18.4667ZM10.4 13H18.5333V11H10.4V13ZM10.4 7.53333H18.5333V5.53333H10.4V7.53333ZM2 24C1.46667 24 1 23.8 0.6 23.4C0.2 23 0 22.5333 0 22V2C0 1.46667 0.2 1 0.6 0.6C1 0.2 1.46667 0 2 0H22C22.5333 0 23 0.2 23.4 0.6C23.8 1 24 1.46667 24 2V22C24 22.5333 23.8 23 23.4 23.4C23 23.8 22.5333 24 22 24H2ZM2 22H22V2H2V22Z" />
+                                    </svg></span> Журнал</a>
+                        </div>
+                        <div class="nav-link">
+                            <a id="type-link" href=""><span><svg width="28" height="22" viewBox="0 0 28 22"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M2.66666 21.6667C2.13333 21.6667 1.66666 21.4667 1.26666 21.0667C0.866664 20.6667 0.666664 20.2 0.666664 19.6667V2.33333C0.666664 1.79999 0.866664 1.33333 1.26666 0.933328C1.66666 0.533328 2.13333 0.333328 2.66666 0.333328H25.3333C25.8667 0.333328 26.3333 0.533328 26.7333 0.933328C27.1333 1.33333 27.3333 1.79999 27.3333 2.33333V19.6667C27.3333 20.2 27.1333 20.6667 26.7333 21.0667C26.3333 21.4667 25.8667 21.6667 25.3333 21.6667H2.66666ZM14 11.6L2.66666 4.16666V19.6667H25.3333V4.16666L14 11.6ZM14 9.6L25.2 2.33333H2.83333L14 9.6ZM2.66666 4.16666V2.33333V19.6667V4.16666Z" />
+                                    </svg></span> Типы входящих</a>
+                        </div>
+                        <div class="nav-link">
+                            <a id="sender-link" href=""> <span><svg width="32" height="25" viewBox="0 0 32 25"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.9841 7L23.9862 6.93469L23.9862 6.93485L24.9841 7ZM15.0159 7L16.0139 6.93598L16.0139 6.93588L15.0159 7ZM10.0333 22.9631L10.9934 23.2425L10.9935 23.2421L10.0333 22.9631ZM30.9675 22.9631L30.006 23.2381L30.0062 23.2388L30.9675 22.9631ZM11.9875 7.99483L10.9895 7.93207L10.9895 7.93208L11.9875 7.99483ZM4.01247 7.99483L3.01437 8.05644L3.01438 8.05649L4.01247 7.99483ZM11.5284 17.8818C12.0154 18.1423 12.6214 17.9586 12.8818 17.4716C13.1423 16.9846 12.9586 16.3786 12.4716 16.1182L11.5284 17.8818ZM1.02068 21.1112L0.0427256 20.9024L0.0424691 20.9036L1.02068 21.1112ZM8.01166 23C8.56395 23 9.01166 22.5523 9.01166 22C9.01166 21.4477 8.56395 21 8.01166 21V23ZM23.9862 6.93485C23.8887 8.42823 23.3389 9.72209 22.5763 10.6262C21.8098 11.5351 20.8795 12 20 12V14C21.605 14 23.0561 13.1595 24.1052 11.9157C25.1582 10.6671 25.8582 8.96094 25.982 7.06515L23.9862 6.93485ZM20 12C18.2422 12 16.212 10.0248 16.0139 6.93598L14.018 7.06402C14.2548 10.7552 16.7889 14 20 14V12ZM16.0139 6.93588C15.8181 3.88912 17.6779 2 20 2V0C16.3367 0 13.7606 3.05921 14.018 7.06412L16.0139 6.93588ZM20 2C22.3158 2 24.1818 3.94611 23.9862 6.93469L25.9819 7.06531C26.2395 3.13055 23.6696 0 20 0V2ZM20.5 16C15.5886 16 10.4066 18.0944 9.07297 22.6841L10.9935 23.2421C11.9496 19.9519 15.9071 18 20.5 18V16ZM9.07308 22.6837C8.7177 23.9051 9.66063 25 10.8879 25V23C10.8601 23 10.9044 22.9948 10.9517 23.0542C10.9724 23.0803 10.9884 23.1132 10.9957 23.15C11.0032 23.1877 10.9999 23.2204 10.9934 23.2425L9.07308 22.6837ZM10.8879 25H30.1128V23H10.8879V25ZM30.1128 25C31.345 25 32.277 23.902 31.9287 22.6875L30.0062 23.2388C30.0001 23.2175 29.9969 23.1858 30.0042 23.1492C30.0114 23.1134 30.027 23.0809 30.0477 23.0549C30.0685 23.0286 30.0912 23.013 30.1083 23.005C30.1259 22.9968 30.1302 23 30.1128 23V25ZM31.9289 22.6882C30.5955 18.0258 25.4025 16 20.5 16V18C25.1032 18 29.0497 19.8942 30.006 23.2381L31.9289 22.6882ZM10.9895 7.93208C10.9137 9.13768 10.4812 10.1884 9.89115 10.9192C9.29458 11.6581 8.60393 12 8 12V14C9.37328 14 10.5884 13.2393 11.4472 12.1756C12.3126 11.1038 12.8853 9.65198 12.9856 8.05758L10.9895 7.93208ZM8 12C7.39572 12 6.7043 11.6579 6.10752 10.9193C5.51731 10.1888 5.08504 9.13848 5.01057 7.93316L3.01438 8.05649C3.11295 9.65204 3.68584 11.1043 4.55183 12.1762C5.41124 13.2399 6.62707 14 8 14V12ZM5.01057 7.93322C4.85758 5.45473 6.32674 4 8 4V2C4.9093 2 2.80774 4.70906 3.01437 8.05644L5.01057 7.93322ZM8 4C9.66709 4 11.1424 5.50094 10.9895 7.93207L12.9856 8.05759C13.1923 4.76975 11.0969 2 8 2V4ZM12.4716 16.1182C11.8337 15.777 10.9349 15.5034 10.0858 15.3156C9.22767 15.1258 8.31244 15 7.60939 15V17C8.11718 17 8.87861 17.0969 9.65377 17.2684C10.438 17.4419 11.129 17.6682 11.5284 17.8818L12.4716 16.1182ZM7.60939 15C4.24529 15 0.881239 16.9759 0.0427263 20.9024L1.99863 21.3201C2.60256 18.492 4.9968 17 7.60939 17V15ZM0.0424691 20.9036C-0.0523667 21.3504 0.0107059 21.8297 0.243847 22.2282C0.484529 22.6395 0.941422 23 1.55915 23V21C1.65575 21 1.7521 21.0291 1.83159 21.0796C1.90664 21.1272 1.94886 21.1819 1.97005 21.2181C2.00852 21.2839 1.9989 21.3188 1.99888 21.3189L0.0424691 20.9036ZM1.55915 23H8.01166V21H1.55915V23Z" />
+                                    </svg></span> Отправители</a>
+                        </div>
+                        <div class="nav-link">
+                            <a id="director-link" href=""> <span><svg width="28" height="22" viewBox="0 0 28 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M22.3333 12V10H27.3333V12H22.3333ZM24 21.6667L19.9667 18.6667L21.1667 17.0667L25.2 20.0667L24 21.6667ZM21.2667 4.90001L20.0667 3.30001L24 0.333344L25.2 1.93334L21.2667 4.90001ZM5 20.3333V15H2.66666C2.11666 15 1.64583 14.8042 1.25416 14.4125C0.862497 14.0208 0.666664 13.55 0.666664 13V9.00001C0.666664 8.45001 0.862497 7.97918 1.25416 7.58751C1.64583 7.19584 2.11666 7.00001 2.66666 7.00001H8.66666L15.3333 3.00001V19L8.66666 15H7V20.3333H5ZM16.6667 15.4667V6.53334C17.2667 7.06668 17.75 7.71668 18.1167 8.48334C18.4833 9.25001 18.6667 10.0889 18.6667 11C18.6667 11.9111 18.4833 12.75 18.1167 13.5167C17.75 14.2833 17.2667 14.9333 16.6667 15.4667ZM2.66666 9.00001V13H9.2L13.3333 15.4667V6.53334L9.2 9.00001H2.66666Z" />
+                                    </svg></span> Руководители</a>
+                        </div>
+                        <div class="nav-link">
+                            <a id="executor-link" href=""> <span><svg width="28" height="26" viewBox="0 0 28 26"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M2.66666 26C2.13333 26 1.66666 25.8 1.26666 25.4C0.866664 25 0.666664 24.5333 0.666664 24V7.69999C0.666664 7.16666 0.866664 6.69999 1.26666 6.29999C1.66666 5.89999 2.13333 5.69999 2.66666 5.69999H9V2.66666C9 2.13332 9.2 1.66666 9.6 1.26666C10 0.866657 10.4667 0.666656 11 0.666656H17C17.5333 0.666656 18 0.866657 18.4 1.26666C18.8 1.66666 19 2.13332 19 2.66666V5.69999H25.3333C25.8667 5.69999 26.3333 5.89999 26.7333 6.29999C27.1333 6.69999 27.3333 7.16666 27.3333 7.69999V24C27.3333 24.5333 27.1333 25 26.7333 25.4C26.3333 25.8 25.8667 26 25.3333 26H2.66666ZM11 5.69999H17V2.66666H11V5.69999ZM25.3333 17.6333H17.0333V19.6333H11.0333V17.6333H2.66666V24H25.3333V17.6333ZM13.0333 17.6333H15.0333V15.6333H13.0333V17.6333ZM2.66666 15.6333H11.0333V13.6333H17.0333V15.6333H25.3333V7.69999H2.66666V15.6333Z" />
+                                    </svg></span> Исполнители</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <header>
+                <div class="header-inner">
+                    <div class="header-left">
+                        <div class="icon" id="closeBtn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.7664 24L0 12L10.7664 0L12.6505 2.1L3.76822 12L12.6505 21.9L10.7664 24ZM22.1159 24L11.3495 12L22.1159 0L24 2.1L15.1178 12L24 21.9L22.1159 24Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="theme">
+                            <div class="theme-toggle">
+                                <span class="active" id="light"><svg width="22" height="22" viewBox="0 0 22 22"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.9941 14.5C11.9647 14.5 12.7917 14.1603 13.475 13.4809C14.1583 12.8015 14.5 11.9765 14.5 11.0059C14.5 10.0353 14.1603 9.20833 13.4809 8.525C12.8015 7.84167 11.9765 7.5 11.0059 7.5C10.0353 7.5 9.20833 7.83971 8.525 8.51913C7.84167 9.19853 7.5 10.0235 7.5 10.9941C7.5 11.9647 7.83971 12.7917 8.51913 13.475C9.19853 14.1583 10.0235 14.5 10.9941 14.5ZM11 16C9.61667 16 8.4375 15.5125 7.4625 14.5375C6.4875 13.5625 6 12.3833 6 11C6 9.61667 6.4875 8.4375 7.4625 7.4625C8.4375 6.4875 9.61667 6 11 6C12.3833 6 13.5625 6.4875 14.5375 7.4625C15.5125 8.4375 16 9.61667 16 11C16 12.3833 15.5125 13.5625 14.5375 14.5375C13.5625 15.5125 12.3833 16 11 16ZM0.75 11.75C0.5375 11.75 0.359375 11.6777 0.215625 11.5331C0.071875 11.3885 0 11.2094 0 10.9956C0 10.7819 0.071875 10.6042 0.215625 10.4625C0.359375 10.3208 0.5375 10.25 0.75 10.25H3.25C3.4625 10.25 3.64063 10.3223 3.78438 10.4669C3.92813 10.6115 4 10.7906 4 11.0044C4 11.2181 3.92813 11.3958 3.78438 11.5375C3.64063 11.6792 3.4625 11.75 3.25 11.75H0.75ZM18.75 11.75C18.5375 11.75 18.3594 11.6777 18.2156 11.5331C18.0719 11.3885 18 11.2094 18 10.9956C18 10.7819 18.0719 10.6042 18.2156 10.4625C18.3594 10.3208 18.5375 10.25 18.75 10.25H21.25C21.4625 10.25 21.6406 10.3223 21.7844 10.4669C21.9281 10.6115 22 10.7906 22 11.0044C22 11.2181 21.9281 11.3958 21.7844 11.5375C21.6406 11.6792 21.4625 11.75 21.25 11.75H18.75ZM10.9956 4C10.7819 4 10.6042 3.92813 10.4625 3.78438C10.3208 3.64063 10.25 3.4625 10.25 3.25V0.75C10.25 0.5375 10.3223 0.359375 10.4669 0.215625C10.6115 0.071875 10.7906 0 11.0044 0C11.2181 0 11.3958 0.071875 11.5375 0.215625C11.6792 0.359375 11.75 0.5375 11.75 0.75V3.25C11.75 3.4625 11.6777 3.64063 11.5331 3.78438C11.3885 3.92813 11.2094 4 10.9956 4ZM10.9956 22C10.7819 22 10.6042 21.9282 10.4625 21.7845C10.3208 21.6407 10.25 21.4625 10.25 21.25V18.75C10.25 18.5375 10.3223 18.3594 10.4669 18.2156C10.6115 18.0719 10.7906 18 11.0044 18C11.2181 18 11.3958 18.0719 11.5375 18.2156C11.6792 18.3594 11.75 18.5375 11.75 18.75V21.25C11.75 21.4625 11.6777 21.6407 11.5331 21.7845C11.3885 21.9282 11.2094 22 10.9956 22ZM5 6.05L3.575 4.65C3.425 4.5 3.35309 4.31998 3.35928 4.10993C3.36544 3.89986 3.43649 3.72069 3.57243 3.57243C3.72069 3.42414 3.89986 3.35 4.10993 3.35C4.31998 3.35 4.5 3.425 4.65 3.575L6.05 5C6.18333 5.15 6.25 5.325 6.25 5.525C6.25 5.725 6.18333 5.89583 6.05 6.0375C5.91667 6.17917 5.74583 6.25 5.5375 6.25C5.32917 6.25 5.15 6.18333 5 6.05ZM17.35 18.425L15.95 17C15.8167 16.85 15.75 16.6719 15.75 16.4656C15.75 16.2594 15.8208 16.0875 15.9625 15.95C16.1042 15.8 16.275 15.725 16.475 15.725C16.675 15.725 16.85 15.8 17 15.95L18.425 17.35C18.575 17.5 18.6469 17.68 18.6407 17.8901C18.6346 18.1001 18.5635 18.2793 18.4276 18.4276C18.2793 18.5759 18.1001 18.65 17.8901 18.65C17.68 18.65 17.5 18.575 17.35 18.425ZM15.95 6.05C15.8 5.9 15.725 5.725 15.725 5.525C15.725 5.325 15.8 5.15 15.95 5L17.35 3.575C17.5 3.425 17.68 3.35309 17.8901 3.35928C18.1001 3.36544 18.2793 3.43649 18.4276 3.57243C18.5759 3.72069 18.65 3.89986 18.65 4.10993C18.65 4.31998 18.575 4.5 18.425 4.65L17 6.05C16.8667 6.18333 16.697 6.25 16.4909 6.25C16.2848 6.25 16.1046 6.18333 15.95 6.05ZM3.57243 18.4276C3.42414 18.2793 3.35 18.1001 3.35 17.8901C3.35 17.68 3.425 17.5 3.575 17.35L5 15.95C5.14667 15.8 5.32083 15.725 5.5225 15.725C5.72417 15.725 5.89674 15.8 6.04023 15.95C6.19674 16.1 6.275 16.275 6.275 16.475C6.275 16.675 6.2 16.85 6.05 17L4.65 18.425C4.5 18.575 4.31998 18.6469 4.10993 18.6407C3.89986 18.6346 3.72069 18.5635 3.57243 18.4276Z" />
+                                    </svg></span>
+                                <span id="dark"><svg width="23" height="23" viewBox="0 0 23 23"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4445 22.1111C8.48154 22.1111 5.96302 21.0741 3.88894 19C1.81487 16.9259 0.777832 14.4074 0.777832 11.4444C0.777832 8.48148 1.81487 5.96296 3.88894 3.88889C5.96302 1.81482 8.48154 0.777779 11.4445 0.777779C11.6025 0.777779 11.7704 0.782717 11.9482 0.792593C12.126 0.80247 12.3531 0.817285 12.6297 0.837038C11.9186 1.46914 11.3655 2.24938 10.9704 3.17778C10.5754 4.10617 10.3778 5.08395 10.3778 6.11111C10.3778 7.88889 11.0001 9.4 12.2445 10.6444C13.4889 11.8889 15.0001 12.5111 16.7778 12.5111C17.805 12.5111 18.7828 12.3284 19.7112 11.963C20.6396 11.5975 21.4198 11.0889 22.0519 10.437C22.0717 10.6741 22.0865 10.8667 22.0964 11.0148C22.1062 11.163 22.1112 11.3062 22.1112 11.4444C22.1112 14.4074 21.0741 16.9259 19.0001 19C16.926 21.0741 14.4075 22.1111 11.4445 22.1111ZM11.4445 20.3333C13.5976 20.3333 15.4741 19.6667 17.0741 18.3333C18.6741 17 19.6717 15.4346 20.0667 13.637C19.5729 13.8543 19.0429 14.0173 18.4766 14.1259C17.9103 14.2346 17.3441 14.2889 16.7778 14.2889C14.5124 14.2889 12.583 13.4923 10.9898 11.8991C9.39665 10.3059 8.60005 8.37657 8.60005 6.11111C8.60005 5.63704 8.64944 5.1284 8.7482 4.58519C8.84697 4.04198 9.02475 3.42469 9.28154 2.73333C7.34573 3.26667 5.7408 4.34815 4.46672 5.97778C3.19265 7.60741 2.55561 9.42963 2.55561 11.4444C2.55561 13.9136 3.41981 16.0123 5.1482 17.7407C6.8766 19.4691 8.97536 20.3333 11.4445 20.3333Z"
+                                            </svg></span>
+                            </div>
+                        </div>
+                        <div id="notify-btn" class="notify">
+                            <div class="icon-notify">
+                                <svg id="icon-notify" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.05 31.16">
+                                    <g id="_Слой_1-2" data-name="Слой 1">
+                                        <path class="cls-1" d="M12.56,1.91C7.6,1.91,3.57,5.81,3.57,10.61v4.19c0,.89-.39,2.23-.85,2.99l-1.72,2.77c-1.06,1.71-.33,3.61,1.62,4.25,6.46,2.09,13.43,2.09,19.89,0,1.81-.58,2.61-2.66,1.62-4.25l-1.72-2.77c-.45-.75-.84-2.1-.84-2.99v-4.19c0-4.79-4.05-8.71-8.99-8.71Zm2.77,.42c-.46-.13-.94-.23-1.44-.29-1.44-.17-2.82-.07-4.11,.29,.43-1.07,1.51-1.83,2.77-1.83s2.34,.75,2.77,1.83Zm2.16,24.46c0,2.13-2.03,3.87-4.5,3.87-1.23,0-2.37-.44-3.18-1.14-.81-.7-1.32-1.68-1.32-2.74"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="notification active" id="notify">
+                <div class="notification-inner">
+                    <div class="notification-top">
+                        <h3 class="notification__title">Уведомления</h3>
+                    </div>
+                    <div class="notification-content">
+                        <div class="notifications-item">
+                            <div class="notification-item__icon">
+                                <img src="assets/images/notification/red.png" alt="">
+                            </div>
+                            <div class="notification-item__text">
+                                <p>Истек срок исполнения входящего <span>#123</span></p>
+                            </div>
+                        </div>
+                        <div class="notifications-item">
+                            <div class="notification-item__icon">
+                                <img src="assets/images/notification/yellow.png" alt="">
+                            </div>
+                            <div class="notification-item__text">
+                                <p>У вас истекает срок исполнения входящего <span>#123</span></p>
+                            </div>
+                        </div>
+                        <div class="notifications-item">
+                            <div class="notification-item__icon">
+                                <img src="assets/images/notification/yellow.png" alt="">
+                            </div>
+                            <div class="notification-item__text">
+                                <p>У вас истекает срок исполнения входящего <span>#123</span></p>
+                            </div>
+                        </div>
+                        <div class="notifications-item">
+                            <div class="notification-item__icon">
+                                <img src="assets/images/notification/yellow.png" alt="">
+                            </div>
+                            <div class="notification-item__text">
+                                <p>У вас истекает срок исполнения входящего <span>#123</span></p>
+                            </div>
+                        </div>
+                        <div class="notifications-item">
+                            <div class="notification-item__icon">
+                                <img src="assets/images/notification/yellow.png" alt="">
+                            </div>
+                            <div class="notification-item__text">
+                                <p>У вас истекает срок исполнения входящего <span>#123</span></p>
+                            </div>
+                        </div>
+                        <div class="notifications-item">
+                            <div class="notification-item__icon">
+                                <img src="assets/images/notification/yellow.png" alt="">
+                            </div>
+                            <div class="notification-item__text">
+                                <p>У вас истекает срок исполнения входящего <span>#123</span></p>
+                            </div>
+                        </div>
+                        <div class="notifications-item">
+                            <div class="notification-item__icon">
+                                <img src="assets/images/notification/yellow.png" alt="">
+                            </div>
+                            <div class="notification-item__text">
+                                <p>У вас истекает срок исполнения входящего <span>#123</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+
+                <!-- 
+                <div class="flex mb-5 gap-2.5">
+                    <button id="btn-s" class="tb-s__btn btn btn-dark">Search</button>
+                    <button id="btn-a" class="tb-s__btn btn btn-dark">Add</button>
+                    <button id="btn-e" class="tb-s__btn btn btn-dark">Edit</button>
+                </div> -->
+
+                <div class="panel">
+                    <div class="flex-tb-bar">
+                        <div class="buttons">
+                            <button class="tb-s-btn">Добавить</button>
+                            <button class="tb-s-btn">Редактировать</button>
+                            <button id="btn-saveAll" class="tb-s-btn hidden">Сохранить всё</button>
+                            <button id="btn-cancelAll" class="tb-s-btn hidden">Отменить всё</button>
+                        </div>
+                        <div class="search">
+                            <input id="search-form" type="search" placeholder="Поиск...">
+                        </div>
+                    </div>
+                    <table id="table" class="table-checkbox whitespace-nowrap dataTable-table">
+                        <thead class="table-head">
+                            <tr>
+                                <th data-sortable="false">
+                                    <input type="checkbox" class="form-checkbox">
+                                </th>
+                                <th>
+                                    <p>№</p>
+                                    <div class="search-form hidden">
+                                        <form>
+                                            <input type="text">
+                                        </form>
+                                    </div>
+                                </th>
+                                <th>
+                                    <p>Тип</p>
+                                    <div class="search-form hidden">
+                                        <form>
+                                            <input type="text">
+                                        </form>
+                                    </div>
+                                </th>
+                                <th>
+                                    <p>Получен</p>
+                                    <div class="search-form hidden">
+                                        <form>
+                                            <input type="text">
+                                        </form>
+                                    </div>
+                                </th>
+                                <th>
+                                    <p>Отправитель</p>
+                                    <div class="search-form hidden">
+                                        <form>
+                                            <input type="text">
+                                        </form>
+                                    </div>
+                                </th>
+                                <th>
+                                    <p>Номер входящего</p>
+                                    <div class="search-form hidden">
+                                        <form>
+                                            <input type="text">
+                                        </form>
+                                    </div>
+                                </th>
+                                <th>
+                                    <p>Описание</p>
+                                    <div class="search-form hidden">
+                                        <form>
+                                            <input type="text">
+                                        </form>
+                                    </div>
+                                </th>
+                                <th class="text-center">
+                                    <p>Статус</p>
+                                    <div class="search-form hidden">
+                                        <form>
+                                            <input type="text">
+                                        </form>
+                                    </div>
+                                </th>
+                                <!--                        <th class="text-center">Action</th>-->
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <tr class="add-row">
+                                <td><input scope="row" type="checkbox" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">
+                                    <div class="add-form">
+                                        <form action="">
+                                            <input type="num">
+                                        </form>
+                                    </div>
+                                </td>
+                                <td x-text="data.date">
+                                    <div class="add-form">
+                                        <form action="">
+                                            <select>
+                                                <option value="Типы" selected>Выберите тип</option>
+                                                <option value="E-Mail">E-Mail</option>
+                                                <option value="Почта">Почта</option>
+                                                <option value="Факс">Факс</option>
+                                            </select>
+                                        </form>
+                                    </div>
+                                </td>
+                                <td x-text="data.date">
+                                    <div class="add-form">
+                                        <form action="">
+                                            <input type="date">
+                                        </form>
+                                    </div>
+                                </td>
+                                <td x-text="data.date">
+                                    <div class="add-form">
+                                        <form action="">
+                                            <input type="text">
+                                        </form>
+                                    </div>
+                                </td>
+                                <td x-text="data.date">
+                                    <div class="add-form">
+                                        <form action="">
+                                            <input type="text">
+                                        </form>
+                                    </div>
+                                </td>
+                                <td x-text="data.sale">
+                                    <div class="add-form">
+                                        <form action="">
+                                            <input type="text">
+                                        </form>
+                                    </div>
+                                </td>
+                                <td class="whitespace-nowrap text-center">
+                                    <select name="" id="">
+                                        <option value="Выполнен" class="text-success">Выполнен</option>
+                                        <option value="Не выполнен" class="text-danger" selected>Не выполнен
+                                        </option>
+                                    </select>
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button">-->
+                                <!--                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 96 960 960">-->
+                                <!--                                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z"/>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                            <button type="button">-->
+                                <!--                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24"-->
+                                <!--                                     fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"-->
+                                <!--                                     stroke-linejoin="round" class="h-5 w-5">-->
+                                <!--                                    <line x1="18" y1="6" x2="6" y2="18"></line>-->
+                                <!--                                    <line x1="6" y1="6" x2="18" y2="18"></line>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input scope="row" type="checkbox" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">John Doe</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">120</td>
+                                <td class="whitespace-nowrap text-center text-success"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Complete
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input scope="row" type="checkbox" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Shaun Park</td>
+                                <td x-text="data.date">11/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">400</td>
+                                <td class="whitespace-nowrap text-center text-secondary"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Pending
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input scope="row" type="checkbox" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Alma Clarke</td>
+                                <td x-text="data.date">12/02/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">310</td>
+                                <td class="whitespace-nowrap text-center text-info"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">In Progress
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input scope="row" type="checkbox" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Alma Clarke</td>
+                                <td x-text="data.date">12/02/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">310</td>
+                                <td class="whitespace-nowrap text-center text-info"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">In Progress
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input scope="row" type="checkbox" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Alma Clarke</td>
+                                <td x-text="data.date">12/02/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">310</td>
+                                <td class="whitespace-nowrap text-center text-info"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">In Progress
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input scope="row" type="checkbox" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Alma Clarke</td>
+                                <td x-text="data.date">12/02/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">310</td>
+                                <td class="whitespace-nowrap text-center text-info"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">In Progress
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" scope="row" class="form-checkbox" x-model="ids" :value="1">
+                                </td>
+                                <td x-text="data.name" class="whitespace-nowrap">Vincent Carpenter</td>
+                                <td x-text="data.date">13/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.date">10/08/2020</td>
+                                <td x-text="data.sale">100</td>
+                                <td class="whitespace-nowrap text-center text-danger"
+                                    :class="{'text-success': data.status === 'Complete', 'text-secondary': data.status === 'Pending', 'text-info': data.status === 'In Progress', 'text-danger': data.status === 'Canceled'}"
+                                    x-text="data.status">Canceled
+                                </td>
+                                <!--                        <td class="text-center">-->
+                                <!--                            <button type="button" x-tooltip="Delete">-->
+                                <!--                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"-->
+                                <!--                                     xmlns="http://www.w3.org/2000/svg" class="m-auto h-5 w-5">-->
+                                <!--                                    <path d="M20.5001 6H3.5" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path-->
+                                <!--                                            d="M18.8334 8.5L18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5"-->
+                                <!--                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M9.5 11L10 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5" d="M14.5 11L14 16" stroke="currentColor" stroke-width="1.5"-->
+                                <!--                                          stroke-linecap="round"></path>-->
+                                <!--                                    <path opacity="0.5"-->
+                                <!--                                          d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6"-->
+                                <!--                                          stroke="currentColor" stroke-width="1.5"></path>-->
+                                <!--                                </svg>-->
+                                <!--                            </button>-->
+                                <!--                        </td>-->
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <!--            <div class="panel">-->
+                <!--                <div class="mb-5">-->
+                <!--                    <div class="table-responsive">-->
+                <!--                        <div id="test">-->
+
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--            </div>-->
+
+                <!--            <script id="table-template" type="text/x-handlebars-template">-->
+                <!--                {{> table}}-->
+                <!--            </script>-->
+            </div>
+        </main>
+    </div>
+
+    <!-- Рендеринг функция -->
+    <!--<script src="./renderer.js"></script>-->
+
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>

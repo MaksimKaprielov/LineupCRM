@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Regular.woff2') format('woff2'),
+         url('../fonts/Nunito-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Medium.woff2') format('woff2'),
+         url('../fonts/Nunito-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-SemiBold.woff2') format('woff2'),
+         url('../fonts/Nunito-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Bold.woff2') format('woff2'),
+         url('../fonts/Nunito-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    appearance: none;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+
+    font-size: 0.88rem;
+    font-family: 'Nunito', sans-serif;
+
+    background-color: var(--color-background);
+}
+
+.container {
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.9rem;
+    grid-template-columns: 14rem auto 23rem;
+}
+
+a {
+    color: var(--color-dark);
+}
+
+img {
+    display: block;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 0.87rem;
+}
+
+h4 {
+    font-size: 0.8rem;
+}
+
+h5 {
+    font-size: 0.77rem;
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--color-dark);
+}
+
+small {
+    font-size: 0.75rem;
+}
